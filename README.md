@@ -1,2 +1,13 @@
-# Sentiment-Analysis-of-Shoprite-in-2020
-This project is meant to analyze people's opinion about shoprite on twitter. The objective is to evaluate indirectly the customer service assesment.The Python Libraries used are Pandas, Tweepy, TextBlob, Nltk, Regex,Seaborn  etc. The method is to used Tweepy API to scrape relevant tweets(2,000) from twitter, and using regex and TextBlob to clean and evaluate tweet Sentiment polarity. Morever, NLTK is used to remove stop words and perform other operations.
+# Sentiment-Analysis-of-Shoprite-in-december-2020
+# OBJECTIVE
+This project is aimed at analyzing:
+* Tweeps (twitter user's) emotion about shoprite
+* Most occurring words in tweets
+* Top Tweeps on ShopRite trend table.
+ 
+
+# METHOD
+The method is to use Tweepy API to scrape relevant tweets from twitter,
+(Unfortunately twitter restricted the maximum scrap tweets to 2-3000 per day)
+The tweets are parse using Regex&Nltk. TextBlob is used to analyze Sentiment polarity. 
+While Seaborn & Wordcloud is used to visualize the analysis.
