@@ -8,6 +8,6 @@ This project is aimed at analyzing:
 
 # METHOD
 The method is to use Tweepy API to scrape relevant tweets from twitter,
-(Unfortunately twitter restricted the maximum scrap tweets to 2-3000 per day)
+(Unfortunately twitter restricted the maximum scrap tweets to 2-3000 per day).
 The tweets are parse using Regex&Nltk. TextBlob is used to analyze Sentiment polarity. 
 While Seaborn & Wordcloud is used to visualize the analysis.
